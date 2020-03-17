@@ -7,7 +7,20 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet'/>
 </head>
+
+
+
 <body>
-    
+    <div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoibWVsb2RyYW1hIiwiYSI6ImNrN3c0aDB1bjAwaHMzbW55N3JmamRmOWkifQ.6NhbD_xq8KsGmWu5WSvXuw';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'});
+
+
+
+
+</script>
 </body>
 </html>
